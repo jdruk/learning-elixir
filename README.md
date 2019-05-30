@@ -25,8 +25,8 @@ Install
 ##### Continue
 
 ```shell
-	asdf plugin-install erlang
-	asdf plugin-install elixir
+	asdf plugin-add erlang
+	asdf plugin-add elixir
 	asdf install erlang 21.1.1
 	asdf global erlang 21.1.1
 	asdf install elixir 1.8
