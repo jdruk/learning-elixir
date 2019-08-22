@@ -9,4 +9,8 @@ defmodule FaturaTest do
   test "exemplo refute" do 
     refute Fatura.sorted(["teste", "aaaa", "bbb"]) == ["teste", "aaaa", "bbb"]
   end
+  
+  test "exemplo member?" do 
+    assert Fatura.exist?(["teste", "aaaa", "bbb"], "teste")
+  end
 end

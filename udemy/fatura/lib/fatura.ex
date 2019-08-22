@@ -31,4 +31,8 @@ defmodule Fatura do
     Enum.sort faturas 
   end
 
+  def exist? faturas, fatura do 
+    Enum.member? faturas, fatura
+  end
+
 end
